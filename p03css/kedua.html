@@ -1,0 +1,73 @@
+<html>
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabel CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/my.css">
+</head>
+<style>
+table {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #62448d;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #7953bc;
+}
+</style>
+</head>
+<body>
+
+<h1>5 kawan terbaikku di IKMI</h1>
+
+<table>
+  <tr>
+    <th>No.</th>
+    <th>Nama</th>
+    <th>Alamat</th>
+    <th>Aksi</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Abubakar Shidiq</td>
+    <td>Brebes</td>
+    <td><button class="hapus">Delete</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Olanda</td>
+    <td>Tengah Tani</td>
+    <td><button class="hapus">Delete</button></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Achmad Faouzi</td>
+    <td>Panguragan</td>
+    <td><button class="hapus">Delete</button></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Aji Susanto</td>
+    <td>Palimanan</td>
+    <td><button class="hapus">Delete</button></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Aldiyansyah Kurniawan</td>
+    <td>Depok</td>
+    <td><button class="hapus">Delete</button></td>
+  </tr>
+</table>
+<div class="tombol-back">
+  <button onclick="alert('Balik ke profil saya?')" href="../saya.html"
+    >Menu Utama</button>
+</div> 
+</body>
+</html>
